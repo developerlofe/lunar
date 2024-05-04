@@ -32,13 +32,13 @@ public class KitsGUI extends CustomGUI {
 
         ItemBuilder pvp = new ItemBuilder(XMaterial.DIAMOND_SWORD.parseItem(), 1, "PvP", ItemBuilder.formatLore(new String[] {
                 "&8&m-⬴------------------⤀-",
-                "&7&oBasic PvP class.",
+                "&bBasic PvP class.",
                 "&8&m-⬴------------------⤀-"
         }));
         ItemBuilder dwarf = new ItemBuilder(XMaterial.GOLDEN_AXE.parseItem(), 1, "Dwarf", ItemBuilder.formatLore(new String[] {
                 "&8&m-⬴---------------------------⤀-",
-                "&7&oCrouch to charge up a blast",
-                "&7&othat knocks players away!",
+                "&7&bCrouch to charge up a blast",
+                "&7&bthat knocks players away!",
                 "&8&m-⬴---------------------------⤀-",
         }));
 
